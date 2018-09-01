@@ -1,3 +1,2 @@
 # tubbybunny.com
-2 windows testing 2
-Repository for tubbybunny.com
+this is the test from my home pc
