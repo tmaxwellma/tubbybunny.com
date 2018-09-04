@@ -9,13 +9,13 @@ def cli():
     "Webotron deploys websites to AWS"
     pass
 
-@cli.command('list-buckets')
+@cli.command('lb')
 def list_buckets():
     "List all s3 buckets"
     for bucket in s3.buckets.all():
         print(bucket)
 
-@cli.command('list-bucket-objects')
+@cli.command('lbo')
 @click.argument('bucketname')
 def list_bucket_objects(bucketname):
     "List objects in an s3 bucket"
